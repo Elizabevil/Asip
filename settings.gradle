@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        maven {
+            allowInsecureProtocol = true
+            url 'http://192.168.10.1:8081/repository/android-group/'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'http://192.168.10.1:8081/repository/java-group'
+        }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            allowInsecureProtocol = true
+            url 'http://192.168.10.1:8081/repository/android-group/'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'http://192.168.10.1:8081/repository/java-group'
+        }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Asip"
+include ':app'
+include ':pay'
+include ':kit'
+include ':payDemo'
