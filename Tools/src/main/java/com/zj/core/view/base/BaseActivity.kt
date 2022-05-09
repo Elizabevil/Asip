@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import com.blankj.utilcode.util.BarUtils
 import com.blankj.utilcode.util.ConvertUtils
-import com.zj.core.R
+import com.eliza.android.tools.R
 import com.zj.core.util.showToast
 import com.zj.core.view.base.lce.DefaultLceImpl
 import com.zj.core.view.base.lce.ILce

@@ -32,7 +32,9 @@ android {
     }
     buildFeatures {
         viewBinding true
-        dataBinding true
+    }
+    dataBinding {
+        enabled true
     }
 }
 
@@ -57,7 +59,7 @@ dependencies {
             //            dep.recyclerview(),
 
 //            dep.nav(),
-//            dep.core(),
+            dep.core(),
 //            dep.ImgPicasso(),
 //            dep.ImgGlide(),
             dep.okHttp3(),

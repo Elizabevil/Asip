@@ -1,8 +1,8 @@
 package com.zj.core.view.base.lce
 
 import android.view.View
+import com.eliza.android.tools.R
 import com.zj.core.Play
-import com.zj.core.R
 
 /**
  * 策略模式

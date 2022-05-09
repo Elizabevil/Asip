@@ -4,7 +4,7 @@ import android.app.Activity
 import android.app.Dialog
 import android.content.Context
 import android.view.LayoutInflater
-import com.zj.core.databinding.DialogProgressBinding
+import com.eliza.android.tools.databinding.DialogProgressBinding
 import java.lang.ref.WeakReference
 
 /**

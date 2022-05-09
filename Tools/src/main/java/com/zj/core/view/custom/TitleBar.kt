@@ -10,8 +10,8 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.blankj.utilcode.util.KeyboardUtils
-import com.zj.core.R
-import com.zj.core.databinding.LayoutTitleBinding
+import com.eliza.android.tools.R
+import com.eliza.android.tools.databinding.LayoutTitleBinding
 
 /**
  * 自定义头部View

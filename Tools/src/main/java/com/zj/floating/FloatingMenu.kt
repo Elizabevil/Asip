@@ -19,6 +19,7 @@ import android.view.animation.Interpolator
 import android.view.animation.OvershootInterpolator
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.ViewCompat
+import com.eliza.android.tools.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 /**

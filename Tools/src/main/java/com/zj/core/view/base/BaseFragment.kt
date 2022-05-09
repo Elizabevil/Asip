@@ -1,19 +1,26 @@
 package com.zj.core.view.base
 
+
+import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.res.Configuration
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.annotation.CallSuper
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
+import com.blankj.utilcode.util.BarUtils
 import com.blankj.utilcode.util.ConvertUtils
-import com.zj.core.R
+import com.eliza.android.tools.R
 import com.zj.core.util.showToast
 import com.zj.core.view.base.lce.DefaultLceImpl
 import com.zj.core.view.base.lce.ILce
+import java.lang.ref.WeakReference
 
 /**
  * 应用程序中所有Fragment的基类。

@@ -3,6 +3,7 @@ package com.zj.permission
 import android.os.Build
 import android.util.Log
 import androidx.fragment.app.FragmentActivity
+import com.eliza.android.tools.R
 import com.zj.core.util.showLongToast
 import java.lang.StringBuilder
 
