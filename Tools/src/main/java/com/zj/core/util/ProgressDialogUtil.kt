@@ -4,7 +4,6 @@ import android.app.Activity
 import android.app.Dialog
 import android.content.Context
 import android.view.LayoutInflater
-import com.eliza.android.tools.databinding.DialogProgressBinding
 import java.lang.ref.WeakReference
 
 /**
@@ -24,7 +23,7 @@ class ProgressDialogUtil {
             return
         }
         progressDialog = Dialog(mContext!!.get()!!)
-        val progressView = DialogProgressBinding.inflate(LayoutInflater.from(mContext!!.get()!!))
+        val progressView = com.eliza.android.tools.databinding.DialogProgressBinding.inflate(LayoutInflater.from(mContext!!.get()!!))
         progressView.apply {
             dialogMessage.text = msg
         }
