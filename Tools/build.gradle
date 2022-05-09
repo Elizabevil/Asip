@@ -1,10 +1,10 @@
 plugins {
 //    id 'com.android.application'
     id 'com.android.library'
-
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
 }
+
 
 android {
     compileSdk 32
@@ -34,7 +34,7 @@ android {
 
 dependencies {
 //    implementation project(':library')
-    compileOnly project(':kit')
+//    compileOnly project(':kit')
 //    compileOnly project(':RxUI')
     def obj = ipp.createObj()
 //    obj.OneForImport(dep.lifecycle())
@@ -43,8 +43,8 @@ dependencies {
             dep.initProject(),
             dep.lifecycle(),
             dep.Kotlin(),
-            dep.pay(),
             dep.littleTools(),
+            dep.layouts(),
 
 //            dep.room(),
 //            dep.compose(),
@@ -55,7 +55,7 @@ dependencies {
 //            dep.core(),
 //            dep.ImgPicasso(),
 //            dep.ImgGlide(),
-//            dep.okHttp3(),
+            dep.okHttp3(),
             dep.jsonTools(),
 
 //            dep.camerax(),
