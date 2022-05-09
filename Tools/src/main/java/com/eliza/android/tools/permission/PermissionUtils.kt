@@ -1,12 +1,16 @@
 package com.eliza.android.tools.permission
 
+import android.Manifest
 import android.app.Activity
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.fragment.app.FragmentActivity
 import com.eliza.android.tools.logger.InfoTools
+import com.permissionx.guolindev.PermissionX
 
 object PermissionUtils {
     var REQUEST_CODE = 2022 //任意标识
@@ -48,5 +52,19 @@ object PermissionUtils {
                 }
             }
         }
+    }
+
+    fun reqPermissionsX(activity: FragmentActivity, vararg permissions: String) {
+        PermissionX.init(activity)
+            .permissions(
+                listOf(*permissions)
+            )
+            .request { allGranted, grantedList, deniedList ->
+                if (allGranted) {
+                    InfoTools.ToastTools(activity, "All permissions are granted")
+                } else {
+                    InfoTools.ToastTools(activity, "These permissions are denied: $deniedList")
+                }
+            }
     }
 }
