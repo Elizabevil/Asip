@@ -214,12 +214,24 @@ class Depends {
         ]
     }
 
-
+/*
+注意：如果您将 datastore-preferences-core 工件与 Proguard 搭配使用，
+就必须手动将 Proguard 规则添加到 proguard-rules.pro 文件中，以免您的字段遭到删除。
+* */
     public ArrayList<String> data() {
         def data_version = "1.0.0"
         return [
                 // https://mvnrepository.com/artifact/androidx.datastore/datastore-preferences
-                "$runtimeOnly_v androidx.datastore:datastore-preferences:$data_version"
+                "$implementation_v androidx.datastore:datastore-preferences-core:$data_version",
+
+                "$implementation_v androidx.datastore:datastore-preferences:$data_version",
+
+                // optional - RxJava2 support
+                "$implementation_v androidx.datastore:datastore-preferences-rxjava2:$data_version",
+
+                // optional - RxJava3 support
+                "$implementation_v androidx.datastore:datastore-preferences-rxjava3:$data_version",
+
         ]
 
     }
@@ -543,6 +555,11 @@ Hilt 是 Android 的依赖项注入库，可减少在项目中执行手动依赖
                 "$implementation_v joda-time:joda-time:2.10.14",
                 // https://mvnrepository.com/artifact/com.lzy.okgo/okgo
                 "$implementation_v com.lzy.net:okgo:3.0.4",
+                "$implementation_v com.blankj:utilcode:1.30.7",
+                // https://mvnrepository.com/artifact/com.scwang.smart/refresh-header-classics
+                "$implementation_v com.scwang.smart:refresh-header-classics:2.0.3",
+                // https://mvnrepository.com/artifact/com.airbnb.android/lottie
+                "$implementation_v com.airbnb.android:lottie:5.1.1",
 
 
         ]

@@ -1,4 +1,4 @@
-package com.eliza.`as`.tools
+package com.eliza.android.tools
 
 import org.junit.Test
 

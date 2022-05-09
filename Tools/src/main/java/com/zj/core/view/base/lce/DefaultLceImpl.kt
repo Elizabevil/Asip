@@ -2,7 +2,7 @@ package com.zj.core.view.base.lce
 
 import android.view.View
 import android.widget.TextView
-import com.zj.core.R
+import com.eliza.android.tools.R
 
 /**
  * 具体的策略
