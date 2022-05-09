@@ -1,4 +1,4 @@
-package com.eliza.android.tools
+package com.eliza.android.tools.network
 
 import android.Manifest
 import android.content.Context
@@ -7,6 +7,8 @@ import android.net.wifi.WifiManager
 import android.os.Build
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresApi
+import com.eliza.android.tools.logger.InfoTools
+import com.eliza.android.tools.permission.PermissionUtils
 
 object NetWorkManager {
 
@@ -54,8 +56,10 @@ object NetWorkManager {
         //获取当前活跃的网络数据信息，该方法需要申请系统 ACCESS_NETWORK_STATE 权限
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             connMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI)?.state?.let {
-                InfoTools.ToastTools(context,
-                    it)
+                InfoTools.ToastTools(
+                    context,
+                    it
+                )
             }
 
         }

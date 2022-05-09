@@ -1,4 +1,4 @@
-package com.eliza.android.tools
+package com.eliza.android.tools.logger
 
 import android.text.TextUtils
 

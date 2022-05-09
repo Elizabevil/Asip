@@ -2,11 +2,9 @@ package com.eliza.android.tools.file
 
 import android.content.Context
 import android.content.res.AssetManager
-import com.eliza.library.tools.InfoTools
-import java.io.BufferedReader
+import com.eliza.android.tools.logger.InfoTools
 import java.io.File
 import java.io.InputStream
-import java.io.InputStreamReader
 
 
 /**

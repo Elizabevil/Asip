@@ -1,10 +1,9 @@
-package com.eliza.android.tools
+package com.eliza.android.tools.logger
 
 
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
-import java.util.logging.Level
 
 
 /*-*- coding:utf-8 -*-

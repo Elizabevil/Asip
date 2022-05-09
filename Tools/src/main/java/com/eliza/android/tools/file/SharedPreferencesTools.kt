@@ -3,7 +3,7 @@ package com.eliza.android.tools.file
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
-import com.eliza.library.tools.InfoTools
+import com.eliza.android.tools.logger.InfoTools
 
 
 /*-*- coding:utf-8 -*-

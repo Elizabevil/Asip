@@ -1,4 +1,4 @@
-package com.eliza.android.tools
+package com.eliza.android.tools.permission
 
 import android.app.Activity
 import android.content.Context
@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.eliza.android.tools.logger.InfoTools
 
 object PermissionUtils {
     var REQUEST_CODE = 2022 //任意标识
