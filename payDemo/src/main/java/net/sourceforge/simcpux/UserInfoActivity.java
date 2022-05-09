@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.eliza.asip.payDemo.R;
+
 import net.sourceforge.simcpux.uikit.NetworkUtil;
 
 import org.json.JSONException;

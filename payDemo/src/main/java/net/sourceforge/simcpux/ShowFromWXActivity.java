@@ -1,6 +1,5 @@
 package net.sourceforge.simcpux;
 
-import net.sourceforge.simcpux.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -8,8 +7,10 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.eliza.asip.payDemo.R;
+
 public class ShowFromWXActivity extends Activity {
-	
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

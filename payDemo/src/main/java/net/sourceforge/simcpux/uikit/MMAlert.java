@@ -3,7 +3,6 @@ package net.sourceforge.simcpux.uikit;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sourceforge.simcpux.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -24,6 +23,8 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.eliza.asip.payDemo.R;
 
 public final class MMAlert {
 

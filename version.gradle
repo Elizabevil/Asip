@@ -58,7 +58,7 @@ class Depends {
                 "$androidTestImplementation_v androidx.test.ext:junit:$testExtJunit",
                 "$androidTestImplementation_v androidx.test.uiautomator:uiautomator:$uiAutomatorVersion",
                 "$androidTestImplementation_v com.google.truth:truth:$truthVersion",
-                "$testImplementation_v junit:junit:$junitVersion",
+                "$implementation_v junit:junit:$junitVersion",
 
         ]
     }
@@ -550,8 +550,8 @@ Hilt 是 Android 的依赖项注入库，可减少在项目中执行手动依赖
                 "$implementation_v org.greenrobot:greendao:3.3.0",
                 // https://mvnrepository.com/artifact/com.google.guava/guava
                 "$implementation_v com.google.guava:guava:31.1-jre",
-                // https://mvnrepository.com/artifact/com.orhanobut/logger
-                "$implementation_v com.orhanobut:logger:2.2.0",
+      /*          // https://mvnrepository.com/artifact/com.orhanobut/logger
+                "$implementation_v com.orhanobut:logger:2.2.0",*/
                 // https://mvnrepository.com/artifact/net.lingala.zip4j/zip4j
                 "$implementation_v net.lingala.zip4j:zip4j:2.10.0",
                 // https://mvnrepository.com/artifact/joda-time/joda-time

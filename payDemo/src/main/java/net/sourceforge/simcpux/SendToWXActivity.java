@@ -34,6 +34,7 @@ import net.sourceforge.simcpux.uikit.CameraUtil;
 import net.sourceforge.simcpux.uikit.MMAlert;
 
 import java.io.File;
+import com.eliza.asip.payDemo.R;
 
 public class SendToWXActivity extends Activity {
     private final static String TAG = "SendToWXActivity";

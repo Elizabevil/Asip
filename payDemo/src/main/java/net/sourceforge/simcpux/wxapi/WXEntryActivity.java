@@ -25,7 +25,8 @@ import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 
 import net.sourceforge.simcpux.Constants;
 import net.sourceforge.simcpux.GetFromWXActivity;
-import net.sourceforge.simcpux.R;
+import com.eliza.asip.payDemo.R;
+
 import net.sourceforge.simcpux.SendToWXActivity;
 import net.sourceforge.simcpux.ShowFromWXActivity;
 import net.sourceforge.simcpux.uikit.NetworkUtil;
